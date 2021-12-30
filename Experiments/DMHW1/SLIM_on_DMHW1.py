@@ -24,10 +24,10 @@ start = time.time()
 output = SLIM(k=20000).fit(Data).discover(singletons=False, usage_tids=True)
 end = time.time()
 
-# 把找出來的 pattern sets 記錄起來
+# 把找出來的 patterns 記錄起來
 with open(output_file, "w") as f:
     for pattern in output.index:
         f.write(str(pattern) + "\n")
 
 print("SLIM exetution time: ", int(end - start), " seconds")
-print("number of pattern set: ", len(output))
+print("number of patterns: ", len(output))
