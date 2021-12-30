@@ -10,11 +10,11 @@ unzip DMHW1_data.zip
 ```
 
 ### 執行 Binaps
-請將 BINAPS_on_DMhw1.py 這份檔案複製到 DM_Project_Group08/Binaps_code/ 下
+請將 BINAPS_on_DMhw1.py 這份檔案複製到 DM_Project_Group08/Binaps_code/ 下：
 ```
 cp BINAPS_on_DMHW1.py ../../Binaps_code/
 ```
-將工作目錄移動到DM_Project_Group08/Binaps_code/ 下
+將工作目錄移動到DM_Project_Group08/Binaps_code/ 下：
 ```
 cd ../../Binaps_code/
 ```
@@ -22,6 +22,7 @@ cd ../../Binaps_code/
 ```
 python BINAPS_on_DMHW1.py
 ```
+成功執行後，會顯示以下結果：
 ![image](https://user-images.githubusercontent.com/56869343/147765601-95c0ae17-1bc2-43f4-b600-74d180c5a422.png)
 
 測試不同大小的 hidden dimension：
@@ -36,6 +37,7 @@ python BINAPS_on_DMHW1.py --hidden_dim=[dim size]
 ```
 python SLIM_on_DMhw1.py 
 ```
+成功執行後，會顯示以下結果：
 ![image](https://user-images.githubusercontent.com/56869343/147765482-19249f78-9576-40f3-9aad-4b5dc4073b64.png)
 
 ## 結果
