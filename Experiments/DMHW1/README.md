@@ -35,9 +35,44 @@ python BINAPS_on_DMHW1.py --hidden_dim=[dim size]
 ### 執行 SLIM
 確認安裝 skmine 套件後，執行下方指令即可：
 ```
-python SLIM_on_DMhw1.py 
+python SLIM_on_DMHW1.py 
 ```
 成功執行後，會顯示以下結果：  
 ![image](https://user-images.githubusercontent.com/56869343/147765482-19249f78-9576-40f3-9aad-4b5dc4073b64.png)
 
-## 結果
+## 實驗結果
+
+### 實驗一 兩模型找出的 pattern 數量比較
+參數設定：  
+Binaps: 使用預設參數  
+SLIM: K(Number of non-singleton itemsets to mine) = 20000  
+
+| 模型 | pattern 數量 |
+|-------|:-----:|
+| Binaps|  278  |
+| SLIM  |  292  |
+
+
+### 實驗二 兩模型的時間比較
+參數設定：  
+Binaps: 使用預設參數  
+SLIM: K(Number of non-singleton itemsets to mine) = 20000  
+
+GPU: GeForce GTX 1080  
+CPU: Intel Xeon E5-2683 v3  
+
+|  模型 | 時間(second) |
+|-------|:-----:|
+| Binaps(GPU) | 15 s |
+| Binaps(CPU) | 37 s |
+| SLIM(CPU)   | 70 s |
+
+### 實驗三 Binaps使用不同hidden dimension比較
+參數設定：  
+Binaps: 以下表格的每個實驗結果都只調整hidden dimension size，其餘參數接使用預設參數  
+以下表格的每個實驗結果接在GPU: GeForce GTX 1080 上執行  
+
+|  hidden dim size | 100 | 300 | 700 | 900 | 1000(預設) | 2000 | 3000 |
+|-------|:-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| #patterns | 83 | 131 | 224 | 250 | 278 | 421 | 550 |
+| runtime   | 14 s | 15 s | 15s | 14s | 15s | 16s | 17s|
