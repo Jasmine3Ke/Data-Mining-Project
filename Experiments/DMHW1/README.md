@@ -65,8 +65,8 @@ CPU: Intel Xeon E5-2683 v3
 
 ### 實驗三 Binaps使用不同hidden dimension比較
 參數設定：  
-Binaps: 以下表格的每個實驗結果都只調整hidden dimension size，其餘參數接使用預設參數  
-以下表格的每個實驗結果接在GPU: GeForce GTX 1080 上執行  
+Binaps: 以下表格的每個實驗結果都只調整 hidden dimension size，其餘參數接使用預設參數  
+以下表格的每個實驗結果皆在 GPU: GeForce GTX 1080 上執行  
 
 |  hidden dim size | 100 | 300 | 700 | 900 | 1000(預設) | 2000 | 3000 |
 |-------|:-----:|-----:|-----:|-----:|-----:|-----:|-----:|
