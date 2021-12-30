@@ -5,10 +5,19 @@
 
 ## 執行方式
 請先將資料集解壓縮  
+```
+unzip DMHW1_data.zip
+```
 
 ### 執行 Binaps
 請將 BINAPS_on_DMhw1.py 這份檔案移動到 DM_Project_Group08/Binaps_code/ 下
-
+```
+cp BINAPS_on_DMHW1.py ../../Binaps_code/
+```
+將工作目錄移動到DM_Project_Group08/Binaps_code/ 下
+```
+cd ../../Binaps_code/
+```
 確認相關套件都已安裝後，執行下方指令即可：
 ```
 python BINAPS_on_DMhw1.py
