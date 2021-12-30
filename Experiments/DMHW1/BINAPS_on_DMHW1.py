@@ -152,7 +152,7 @@ def main():
                 supp_half = (train_data.matmul(hn.cpu()) >= hn.sum().cpu()/2).sum().cpu().numpy()
                 if hn.sum() >= 2:
                     pattern_num += 1
-                    # 把找出來的 pattern sets 記錄起來
+                    # 把找出來的 patterns 記錄起來
                     tmp = ""
                     for pattern in pat.cpu().numpy():
                         tmp += (items_dict[pattern] + ", ")
@@ -161,7 +161,7 @@ def main():
     end = time.time()
 
     print("BINAPS exetution time: ", int(end - start), " seconds")
-    print("number of pattern set: ", pattern_num)
+    print("number of patterns: ", pattern_num)
 
 if __name__ == '__main__':
     main()
