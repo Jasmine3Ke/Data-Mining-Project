@@ -22,7 +22,7 @@ cd ../../Binaps_code/
 ```
 python BINAPS_on_DMHW1.py
 ```
-成功執行後，會顯示以下結果：
+成功執行後，會顯示以下結果：  
 ![image](https://user-images.githubusercontent.com/56869343/147765601-95c0ae17-1bc2-43f4-b600-74d180c5a422.png)
 
 測試不同大小的 hidden dimension：
@@ -37,7 +37,7 @@ python BINAPS_on_DMHW1.py --hidden_dim=[dim size]
 ```
 python SLIM_on_DMhw1.py 
 ```
-成功執行後，會顯示以下結果：
+成功執行後，會顯示以下結果：  
 ![image](https://user-images.githubusercontent.com/56869343/147765482-19249f78-9576-40f3-9aad-4b5dc4073b64.png)
 
 ## 結果
