@@ -19,8 +19,8 @@ import my_loss as mylo
 import network as mynet
 import time
 
-input_file = "/home/chkuo/chkuo/datamining/binaps/Data/DMHW1_data.csv"
-output_file = "DMHW1_Binaps_patterns.txt"
+input_file = "../Experiments/DMHW1/DMHW1_data.csv"
+output_file = "../Experiments/DMHW1/DMHW1_Binaps_patterns.txt"
 
 def readCsvFile(csv_file):
     df = pd.read_csv(csv_file)
