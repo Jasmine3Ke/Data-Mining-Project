@@ -2,7 +2,7 @@ from skmine.itemsets import SLIM
 import csv
 import time
 
-input_file = "../Data/DMHW1_data.csv"
+input_file = "DMHW1_data.csv"
 output_file = "DMHW1_SLIM_patterns.txt"
 
 # 把資料轉成適當的格式
