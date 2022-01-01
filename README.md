@@ -5,12 +5,14 @@
 * Scipy
 * Pandas
 * Numpy
+* Skmine
 
 ## Implementation Details
 **Dataset → the corresponding device**
 * Retail.dat → Nvidia GeForce GTX 1070 GPU
-* Kosarak.dat → 
+* Kosarak.dat → Intel Xeon E5-2683 v3 CPU (Binaps, SLIM)
 * DMHW1_data.dat → Nvidia GeForce GTX 1080 GPU(Binaps), Intel Xeon E5-2683 v3 CPU(SLIM)
+* Accidents.dat → Nvidia GeForce GTX 1080 GPU (Binaps), Intel Xeon E5-2683 v3 CPU(SLIM)
 
 ## Datasets
 * retail.dat
