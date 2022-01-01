@@ -14,7 +14,7 @@ python main.py --input ../Experiments/Accidents dataset/accidents.dat
 
 測試不同大小的 hidden dimension：
 ```
-python main.py --input accidents.dat --hidden_dim [hidden_dimension]
+python main.py --input ../Experiments/Accidents dataset/accidents.dat --hidden_dim [hidden_dimension]
 ```  
 
 ### 執行 SLIM
