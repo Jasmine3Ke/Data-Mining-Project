@@ -3,8 +3,12 @@
 使用的資料集是 Accident.dat dataset，來自  http://fimi.uantwerpen.be/data/ 
 大小為 340183 x 468。
 
-
 ### 執行 Binaps
+先解壓縮資料集
+```
+unzip accidents.zip
+```
+
 若沒有指定 hidden_dimension，則預設為資料集本身的 columns 數量。
 ```
 cd ../Binaps_code/  
