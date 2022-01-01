@@ -1,6 +1,8 @@
 # 實驗介紹
 
-本實驗使用 Binaps & SLIM 進行 pattern set mining，資料集上是使用Retail.dat資料集，來自 http://fimi.uantwerpen.be/data/
+* 本實驗使用 Binaps & SLIM 進行 pattern set mining
+
+使用Retail.dat資料集，來自 http://fimi.uantwerpen.be/data/
 
 資料集大小為88162*16469。
 
