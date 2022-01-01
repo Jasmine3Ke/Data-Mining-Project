@@ -27,3 +27,13 @@
 * DMHW1_data.csv
   * **Description:** The retail market data from the class of data mining homework 1
 
+## 程式碼運行
+
+本團隊如何運行各個程式碼的readme文件都寫在 Experiments 中的各個資料集的readme中
+
+基本上，就是執行 
+```
+cd ../Binaps_code/  
+python main.py --input DM_Project_Group08/Experiments/dataset/dataset.dat
+```
+將dataset換成不同名字，就可以在不同資料集上得到結果
