@@ -47,7 +47,7 @@ def readDatFile(dat_file):
 
   return data
 
-with open('data/uchoice-Kosarak-5-25.txt', 'r') as f:
+with open('uchoice-Kosarak-5-25.txt', 'r') as f:
 data = f.readlines()
 
 #data = readDatFile('data/accidents.dat')
