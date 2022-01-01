@@ -1,10 +1,8 @@
 # 實驗介紹
 
 * 本實驗使用 Binaps & SLIM 進行 pattern set mining
-
-使用Retail.dat資料集，來自 http://fimi.uantwerpen.be/data/
-
-資料集大小為88162*16469。
+* 使用Retail.dat資料集，來自 http://fimi.uantwerpen.be/data/
+* 資料集大小為88162*16469。
 
 # 執行方式
 ## Binaps
@@ -24,7 +22,9 @@ SLIM 中 k 的數量可從 Retail_on_SLIM.py 裡面的變數 k_num 自行調整�
 GPU: GeForce GTX 1070
 
 用 Binaps 執行的時候，因為依照本來的 hidden dimension 跑的話，會有 GPU 記憶體不足的問題，因此我們有針對 hidden dimension 做調整
+
 retail_hidden_35.binaps.patterns 是將 hidden_dim 設定成 35 找出來的 patterns
+
 retail_hidden_8500.binaps.patterns 是將 hidden_dim 設定成 8500 找出來的 patterns
 ## 實驗二 用 SLIM 執行 pattern set mining
 CPU: Intel Cascade Lake
