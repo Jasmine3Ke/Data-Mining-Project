@@ -17,7 +17,6 @@ python Retail_on_SLIM.py
 ```
 SLIM 中 k 的數量可從 Retail_on_SLIM.py 裡面的變數 k_num 自行調整，預設為 50。
 # 實驗結果
-
-因為依照本來的hidden dimension跑的話，會有GPU記憶體不足的問題，因此我們有針對hidden dimension做調整
+用 Binaps 執行的時候，因為依照本來的 hidden dimension 跑的話，會有GPU記憶體不足的問題，因此我們有針對hidden dimension做調整
 retail_hidden_35.binaps.patterns 是將hidden_dim設定成35找出來的patterns
 retail_hidden_8500.binaps.patterns 是將hidden_dim設定成8500找出來的patterns
