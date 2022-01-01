@@ -50,7 +50,7 @@ def readDatFile(dat_file):
 #with open('data/uchoice-Kosarak-5-25.txt', 'r') as f:
 #tmp = f.readlines()
 
-data = readDatFile('data/accidents.dat')
+data = readDatFile('accidents.dat')
 print(data.shape)
 
 start = time.time()
