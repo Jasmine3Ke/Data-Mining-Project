@@ -9,7 +9,7 @@
 ```
 cd ../Binaps_code/  
 
-python main.py --input accidents.dat
+python main.py --input ../Experiments/Accidents dataset/accidents.dat
 ```
 
 測試不同大小的 hidden dimension：
