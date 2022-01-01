@@ -5,6 +5,7 @@
 * Scipy
 * Pandas
 * Numpy
+* Skmine
 
 ## Implementation Details
 **Dataset → the corresponding device**
