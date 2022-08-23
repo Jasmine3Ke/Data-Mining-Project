@@ -1,4 +1,4 @@
-# DM_Project_Group08
+# Data Mining Project
 
 ## Requirements
 * Pytorch
@@ -31,7 +31,7 @@
 
 本團隊如何運行各個程式碼的readme文件都寫在 Experiments 中的各個資料集的readme中
 
-基本上，就是執行 
+執行 
 ```
 cd ../Binaps_code/  
 python main.py --input DM_Project_Group08/Experiments/dataset/dataset.dat
