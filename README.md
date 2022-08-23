@@ -1,5 +1,11 @@
 # Data Mining Project
 
+## Introduction
+* **學期：** 1101
+* **課程：** Data Mining
+* **描述：** 選擇一篇與Data Mining相關的論文進行實作與實驗
+* **Project:** 本團隊選擇「Differential Pattern Set Mining」這篇論文進行實作與實驗
+
 ## Requirements
 * Pytorch
 * Scipy
